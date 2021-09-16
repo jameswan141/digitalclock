@@ -8,7 +8,7 @@ function showTime() {
   
     if (hour > 12) {
         hour -= 12;
-        am_pm = "PM";
+        am_pm = " PM";
     }
     if (hour == 0) {
         hr = 12;
